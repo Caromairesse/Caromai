@@ -1,0 +1,116 @@
+/* Write some CSS below */
+body {
+	font-family: Overpass;
+    font-size: 18px;
+    color: rgb(30,30,30);
+    background-color: rgb(230,230,230);
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,h2,h3 {
+	font-family: Consolas;
+
+}
+
+h3 {
+
+	text-decoration-color: black;
+}
+
+.banner {
+	text-align: center;
+	background-image: url(images/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0px;
+	color: whitesmoke;
+}
+
+
+.banner h1 {
+	font-size: 35px;
+	background-color: #B5C4AF;
+	background-size: 2px 5px;
+	padding: 10px 20px;
+	margin-top: 20px;
+	border-radius: 2px;
+	margin: 15px;
+	color: #white;
+	width: 400px;
+	display: inline-block;
+	position: center;
+
+
+}
+
+.banner p {
+	font-size: 23px;
+	background-color: black;
+	border-radius: 30px;
+	padding: 20px 45px;
+	margin: 15px;
+	position: center;
+
+}
+
+.btn-black{
+	color: white;
+	background-color: #1B1B1B;
+	padding:  10px 45px;
+	border-radius: 4px;
+	margin: 15px;
+	border-radius: 4px;
+	display:  inline-block;
+	position: center;
+
+}
+
+
+
+
+.btn-black:hover {
+	opacity: 0.9;
+}
+
+.card-white img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+.card-white {
+	       background-color: #B5C4AF;
+           width: 220px ;
+           padding: 24px ;
+           text-align: center;
+           margin-bottom: 8px;
+           border-radius: 4px;
+           box-shadow: 0px 0px 16px rgba(0, 0, 0, 1.0); 
+}
+.container {
+	width: 900px;
+	margin: auto;
+	margin-bottom: 24px;
+}
+
+
+.footer {
+	text-align: center;
+	background-color: rgb(150, 150, 150)
+	padding: 16px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
